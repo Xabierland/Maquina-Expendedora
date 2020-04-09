@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\xabie\Documents\ISE\Maquina_Expendedora\temporizador.ncd
+OUTFILE=C:\Users\xabie\Documents\ISE\Maquina_Expendedora\temporizador.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\xabie\Documents\ISE\Maquina_Expendedora
+LICENSE=WebPack
+USER_INFO=211852856_0_0_436

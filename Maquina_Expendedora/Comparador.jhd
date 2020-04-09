@@ -1,0 +1,5 @@
+MODULE Comparador
+	SUBMODULE suma_resta
+		INSTANCE XLXI_3
+	SUBMODULE registro
+		INSTANCE XLXI_5

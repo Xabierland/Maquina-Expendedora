@@ -1,0 +1,6 @@
+vhdtdtfi -lib work comparador.vhd -prj Maquina_Expendedora -o Comparador_6bits.spl -module Comparador_6bits -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Comparador_6bits.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Comparador_6bits.sym 
+vhdtdtfi -lib work comparador.vhd -prj Maquina_Expendedora -o Comparador_6bits.spl -module Comparador_6bits -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Comparador_6bits.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Comparador_6bits.sym 
+vhdtdtfi -lib work comparador.vhd -prj Maquina_Expendedora -o Comparador_6bits.spl -module Comparador_6bits -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Comparador_6bits.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Comparador_6bits.sym 

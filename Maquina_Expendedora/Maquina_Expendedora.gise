@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Maquina_Expendedora.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Comparador_6bits.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Maquina_Expendedora.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Maquina_Expendedora.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Maquina_Expendedora.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Maquina_Expendedora.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Maquina_Expendedora.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Maquina_Expendedora.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Maquina_Expendedora.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Maquina_Expendedora.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Maquina_Expendedora.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Maquina_Expendedora.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Maquina_Expendedora.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Maquina_Expendedora.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Maquina_Expendedora.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Maquina_Expendedora.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Maquina_Expendedora.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Maquina_Expendedora.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Maquina_Expendedora.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Maquina_Expendedora.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Maquina_Expendedora.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Maquina_Expendedora.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Maquina_Expendedora.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Maquina_Expendedora.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Maquina_Expendedora.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Maquina_Expendedora_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Maquina_Expendedora_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Maquina_Expendedora_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Maquina_Expendedora_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Maquina_Expendedora_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Maquina_Expendedora_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Maquina_Expendedora_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Maquina_Expendedora_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Maquina_Expendedora_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Maquina_Expendedora_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Maquina_Expendedora_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Maquina_Expendedora_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Maquina_Expendedora_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Maquina_Expendedora_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Maquina_Expendedora_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Maquina_Expendedora_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Maquina_Expendedora_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Maquina_Expendedora_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="codificador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="contador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="desplaza.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="makina.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="maquina_estados.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="maquina_estados.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="maquina_estados_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="maquina_estados_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="maquina_expendedora.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="maquina_expendedora.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="maquina_expendedora.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="registro.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="registro_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="suma_resta.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="tempo.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="tempo.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="temporizador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="temporizador.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="temporizador_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="unidad_de_proceso.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="unidad_de_proceso.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="unidad_de_proceso_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="unidad_de_proceso_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="unidad_de_proceso_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1578914983" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1578914983">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914983" xil_pn:in_ck="1829655573319464476" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1578914983">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="codificador.vhd"/>
+      <outfile xil_pn:name="comparador.vhd"/>
+      <outfile xil_pn:name="contador.vhd"/>
+      <outfile xil_pn:name="estados.vhd"/>
+      <outfile xil_pn:name="maquina_estados.vhd"/>
+      <outfile xil_pn:name="registro.vhd"/>
+      <outfile xil_pn:name="sumador_restador.VHD"/>
+      <outfile xil_pn:name="tempo.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914983" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4004953112660801216" xil_pn:start_ts="1578914983">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914986" xil_pn:in_ck="-4227674136453370859" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2021163821320183874" xil_pn:start_ts="1578914983">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.vhf"/>
+      <outfile xil_pn:name="temporizador.vhf"/>
+      <outfile xil_pn:name="unidad_de_proceso.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914986" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6802922693242013172" xil_pn:start_ts="1578914986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914986" xil_pn:in_ck="-5894286076448663709" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1578914986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.vhf"/>
+      <outfile xil_pn:name="codificador.vhd"/>
+      <outfile xil_pn:name="comparador.vhd"/>
+      <outfile xil_pn:name="contador.vhd"/>
+      <outfile xil_pn:name="estados.vhd"/>
+      <outfile xil_pn:name="maquina_estados.vhd"/>
+      <outfile xil_pn:name="registro.vhd"/>
+      <outfile xil_pn:name="sumador_restador.VHD"/>
+      <outfile xil_pn:name="tempo.vhd"/>
+      <outfile xil_pn:name="temporizador.vhf"/>
+      <outfile xil_pn:name="unidad_de_proceso.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914991" xil_pn:in_ck="-5894286076448663709" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5261437071546901936" xil_pn:start_ts="1578914986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora_beh.prj"/>
+      <outfile xil_pn:name="Maquina_Expendedora_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1578914991" xil_pn:in_ck="4850084116140137306" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3057062240978919869" xil_pn:start_ts="1578914991">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909083" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1578909083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915146" xil_pn:in_ck="-4227674136453370859" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1081111000027150654" xil_pn:start_ts="1578915143">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Maquina_Expendedora.vhf"/>
+      <outfile xil_pn:name="temporizador.vhf"/>
+      <outfile xil_pn:name="unidad_de_proceso.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909084" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6802922693242013172" xil_pn:start_ts="1578909084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909084" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1578909084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909084" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4004953112660801216" xil_pn:start_ts="1578909084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909084" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1578909084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909084" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2393019533803795202" xil_pn:start_ts="1578909084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915155" xil_pn:in_ck="-5894286076448663709" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-7632381800030069658" xil_pn:start_ts="1578915146">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.jhd"/>
+      <outfile xil_pn:name="Maquina_Expendedora.lso"/>
+      <outfile xil_pn:name="Maquina_Expendedora.ngc"/>
+      <outfile xil_pn:name="Maquina_Expendedora.ngr"/>
+      <outfile xil_pn:name="Maquina_Expendedora.prj"/>
+      <outfile xil_pn:name="Maquina_Expendedora.stx"/>
+      <outfile xil_pn:name="Maquina_Expendedora.syr"/>
+      <outfile xil_pn:name="Maquina_Expendedora.xst"/>
+      <outfile xil_pn:name="Maquina_Expendedora_beh.prj"/>
+      <outfile xil_pn:name="Maquina_Expendedora_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1578909095" xil_pn:in_ck="-9057514068988315550" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-953428490538180644" xil_pn:start_ts="1578909095">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915162" xil_pn:in_ck="-3159072862505865214" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5647807023456883583" xil_pn:start_ts="1578915155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.bld"/>
+      <outfile xil_pn:name="Maquina_Expendedora.ngd"/>
+      <outfile xil_pn:name="Maquina_Expendedora_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915171" xil_pn:in_ck="-3458951090186016349" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1578915162">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.pcf"/>
+      <outfile xil_pn:name="Maquina_Expendedora_map.map"/>
+      <outfile xil_pn:name="Maquina_Expendedora_map.mrp"/>
+      <outfile xil_pn:name="Maquina_Expendedora_map.ncd"/>
+      <outfile xil_pn:name="Maquina_Expendedora_map.ngm"/>
+      <outfile xil_pn:name="Maquina_Expendedora_map.xrpt"/>
+      <outfile xil_pn:name="Maquina_Expendedora_summary.xml"/>
+      <outfile xil_pn:name="Maquina_Expendedora_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915186" xil_pn:in_ck="-7903537907156209188" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-2723277317048801686" xil_pn:start_ts="1578915171">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.ncd"/>
+      <outfile xil_pn:name="Maquina_Expendedora.pad"/>
+      <outfile xil_pn:name="Maquina_Expendedora.par"/>
+      <outfile xil_pn:name="Maquina_Expendedora.ptwx"/>
+      <outfile xil_pn:name="Maquina_Expendedora.unroutes"/>
+      <outfile xil_pn:name="Maquina_Expendedora.xpi"/>
+      <outfile xil_pn:name="Maquina_Expendedora_pad.csv"/>
+      <outfile xil_pn:name="Maquina_Expendedora_pad.txt"/>
+      <outfile xil_pn:name="Maquina_Expendedora_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915200" xil_pn:in_ck="-4259588833675914467" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1578915186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Maquina_Expendedora.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="maquina_expendedora.bgn"/>
+      <outfile xil_pn:name="maquina_expendedora.bit"/>
+      <outfile xil_pn:name="maquina_expendedora.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1578915185" xil_pn:in_ck="-768513183825169761" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1578915180">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Maquina_Expendedora.twr"/>
+      <outfile xil_pn:name="Maquina_Expendedora.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

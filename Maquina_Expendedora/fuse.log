@@ -1,0 +1,43 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora_isim_beh.exe -prj C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora_beh.prj work.Maquina_Expendedora 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/tempo.vhd" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/estados.vhd" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/temporizador.vhf" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/sumador_restador.VHD" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/registro.vhd" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/comparador.vhd" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/codificador.vhd" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/unidad_de_proceso.vhf" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/maquina_estados.vhd" into library work
+Parsing VHDL file "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Comparador_6bits [comparador_6bits_default]
+Compiling architecture arch of entity registro [registro_default]
+Compiling architecture behavioral of entity suma_resta [suma_resta_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture a of entity codificador [codificador_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture and2b1_v of entity AND2B1 [and2b1_default]
+Compiling architecture behavioral of entity makina [makina_default]
+Compiling architecture behavioral of entity tempo [tempo_default]
+Compiling architecture behavioral of entity temporizador_MUSER_Maquina_Expendedora [temporizador_muser_maquina_expen...]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity unidad_de_proceso_MUSER_Maquina_Expendedora [unidad_de_proceso_muser_maquina_...]
+Compiling architecture behavioral of entity maquina_estados [maquina_estados_default]
+Compiling architecture behavioral of entity maquina_expendedora
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora_isim_beh.exe
+Fuse Memory Usage: 51984 KB
+Fuse CPU Usage: 1109 ms

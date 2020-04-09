@@ -1,0 +1,7 @@
+[Inputs]
+reloj
+enable
+rst
+[Outputs]
+fin_cuenta
+[BiDir]

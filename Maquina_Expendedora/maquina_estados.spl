@@ -1,0 +1,8 @@
+[Inputs]
+reloj
+reset
+entrada
+[Outputs]
+Enable
+rst
+[BiDir]

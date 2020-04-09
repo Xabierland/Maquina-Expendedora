@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.58f on Mon Jan 13 12:32:49 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "diez" LOCATE = SITE "B8" LEVEL 1;
+COMP "venta" LOCATE = SITE "V15" LEVEL 1;
+COMP "veinte" LOCATE = SITE "C4" LEVEL 1;
+COMP "insignia" LOCATE = SITE "R11" LEVEL 1;
+COMP "fin_tempo" LOCATE = SITE "V16" LEVEL 1;
+COMP "cinco" LOCATE = SITE "D9" LEVEL 1;
+COMP "reloj" LOCATE = SITE "V10" LEVEL 1;
+COMP "gorro" LOCATE = SITE "T11" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "XLXI_11/cuenta_0" BEL "XLXI_11/cuenta_1" BEL
+        "XLXI_11/cuenta_2" BEL "XLXI_11/cuenta_3" BEL "XLXI_11/cuenta_4" BEL
+        "XLXI_11/cuenta_5" BEL "XLXI_11/cuenta_6" BEL "XLXI_11/cuenta_7" BEL
+        "XLXI_11/cuenta_8" BEL "XLXI_11/cuenta_9" BEL "XLXI_11/cuenta_10" BEL
+        "XLXI_11/cuenta_11" BEL "XLXI_11/cuenta_12" BEL "XLXI_11/cuenta_13"
+        BEL "XLXI_11/cuenta_14" BEL "XLXI_11/cuenta_15" BEL
+        "XLXI_11/cuenta_16" BEL "XLXI_11/cuenta_17" BEL "XLXI_11/cuenta_18"
+        BEL "XLXI_11/cuenta_19" BEL "XLXI_11/cuenta_20" BEL
+        "XLXI_11/cuenta_21" BEL "XLXI_11/cuenta_22" BEL "XLXI_11/cuenta_23"
+        BEL "XLXI_11/z" BEL "reloj_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

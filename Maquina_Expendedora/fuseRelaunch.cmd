@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora_isim_beh.exe" -prj "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora_beh.prj" "work.Maquina_Expendedora" 

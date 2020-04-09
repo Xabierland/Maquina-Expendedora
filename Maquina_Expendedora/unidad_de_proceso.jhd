@@ -1,0 +1,13 @@
+MODULE unidad_de_proceso
+	SUBMODULE Comparador_6bits
+		INSTANCE XLXI_2
+	SUBMODULE Comparador_6bits
+		INSTANCE XLXI_3
+	SUBMODULE registro
+		INSTANCE XLXI_4
+	SUBMODULE suma_resta
+		INSTANCE XLXI_5
+	SUBMODULE codificador
+		INSTANCE XLXI_23
+	SUBMODULE temporizador
+		INSTANCE XLXI_65

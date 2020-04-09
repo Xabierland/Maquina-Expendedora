@@ -1,0 +1,8 @@
+vhdtdtfi -lib work tempo.vhd -prj Maquina_Expendedora -o tempo.spl -module tempo -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 tempo.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/tempo.sym 
+vhdtdtfi -lib work tempo.vhd -prj Maquina_Expendedora -o tempo.spl -module tempo -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w tempo.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/tempo.sym 
+vhdtdtfi -lib work tempo.vhd -prj Maquina_Expendedora -o tempo.spl -module tempo -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w tempo.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/tempo.sym 
+vhdtdtfi -lib work tempo.vhd -prj Maquina_Expendedora -o tempo.spl -module tempo -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w tempo.spl C:/Users/xabie/Documents/ISE/Maquina_Expendedora/tempo.sym 

@@ -1,0 +1,5 @@
+MODULE temporizador
+	SUBMODULE makina
+		INSTANCE XLXI_1
+	SUBMODULE tempo
+		INSTANCE XLXI_2

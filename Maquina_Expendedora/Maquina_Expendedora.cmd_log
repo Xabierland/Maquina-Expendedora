@@ -1,0 +1,173 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Maquina_Expendedora C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sch C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sym 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+sch2sym -intstyle ise -family spartan6 -w -refsym Maquina_Expendedora C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sch C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Maquina_Expendedora C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sch C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sym 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+sch2sym -intstyle ise -family spartan6 -w -refsym Maquina_Expendedora C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sch C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.sym 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 
+xst -intstyle ise -ifn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.xst" -ofn "C:/Users/xabie/Documents/ISE/Maquina_Expendedora/Maquina_Expendedora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Patillaje.ucf -p xc6slx16-csg324-3 Maquina_Expendedora.ngc Maquina_Expendedora.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Maquina_Expendedora_map.ncd Maquina_Expendedora.ngd Maquina_Expendedora.pcf 
+par -w -intstyle ise -ol high -mt off Maquina_Expendedora_map.ncd Maquina_Expendedora.ncd Maquina_Expendedora.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Maquina_Expendedora.twx Maquina_Expendedora.ncd -o Maquina_Expendedora.twr Maquina_Expendedora.pcf -ucf Patillaje.ucf 
+bitgen -intstyle ise -f Maquina_Expendedora.ut Maquina_Expendedora.ncd 

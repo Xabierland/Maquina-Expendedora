@@ -1,0 +1,7 @@
+MODULE Maquina_Expendedora
+	SUBMODULE unidad_de_proceso
+		INSTANCE XLXI_1
+	SUBMODULE maquina_estados
+		INSTANCE XLXI_3
+	SUBMODULE contador
+		INSTANCE XLXI_11
